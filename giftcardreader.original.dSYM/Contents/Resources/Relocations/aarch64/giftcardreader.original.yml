@@ -1,0 +1,13 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     giftcardreader.original
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _animate, symObjAddr: 0x0, symBinAddr: 0x100002E28, symSize: 0x260 }
+  - { offsetInCU: 0x4E, offset: 0x4E, size: 0x8, addend: 0x0, symName: _thisone, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0xBC, offset: 0xBC, size: 0x8, addend: 0x0, symName: _animate, symObjAddr: 0x0, symBinAddr: 0x100002E28, symSize: 0x260 }
+  - { offsetInCU: 0x17B, offset: 0x17B, size: 0x8, addend: 0x0, symName: _get_gift_card_value, symObjAddr: 0x2A4, symBinAddr: 0x1000030CC, symSize: 0xAC }
+  - { offsetInCU: 0x1F7, offset: 0x1F7, size: 0x8, addend: 0x0, symName: _print_gift_card_info, symObjAddr: 0x350, symBinAddr: 0x100003178, symSize: 0x234 }
+  - { offsetInCU: 0x26F, offset: 0x26F, size: 0x8, addend: 0x0, symName: _gift_card_json, symObjAddr: 0x584, symBinAddr: 0x1000033AC, symSize: 0x370 }
+  - { offsetInCU: 0x322, offset: 0x322, size: 0x8, addend: 0x0, symName: _gift_card_reader, symObjAddr: 0x8F4, symBinAddr: 0x10000371C, symSize: 0x364 }
+  - { offsetInCU: 0x3E5, offset: 0x3E5, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xC58, symBinAddr: 0x100003A80, symSize: 0x158 }
+...
